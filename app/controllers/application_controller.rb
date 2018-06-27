@@ -6,6 +6,8 @@ class ApplicationController < Sinatra::Base
   end
 #Sinatra
 get '/' do 
+  erb:'index.html'
+end 
 
 post '/results' do 
   answers= params.values 
