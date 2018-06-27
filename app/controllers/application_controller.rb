@@ -5,7 +5,7 @@ class ApplicationController < Sinatra::Base
     set :views, 'app/views'
   end
 #Sinatra
-
+get '/' do 
 
 post '/results' do 
   answers= params.values 
