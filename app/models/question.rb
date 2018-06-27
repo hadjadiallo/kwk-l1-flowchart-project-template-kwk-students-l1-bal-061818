@@ -1,6 +1,6 @@
 #file should contain ruby 
 
-def 
+# def 
 
 class Question
 
